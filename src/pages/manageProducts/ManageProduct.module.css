@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    color: #3d8584;
+    padding: 10px;
+    margin: 10px 0;
+    accent-color: #3d8584;
+}
+
+.form {
+    margin: 20px;
+    border: 1px solid #3d8584;
+    border-radius: 10px;
+    background-color: #3d8584;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.heading {
+    color: #3d8584;
+    margin: 20px;
+}
+
+.products {
+    margin: 20px;
+}
+
+.hr {
+    border: 2px solid #3d8584;
+    margin: 20px 30px;
+}
+
+.show {
+    display: none;
+}
